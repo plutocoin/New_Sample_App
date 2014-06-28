@@ -3,4 +3,10 @@
   <data-source source="LOCAL" name="Rails New Sample App: development" uuid="52790551-64be-4070-8113-5159e46a1808">
     <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
   </data-source>
+  <data-source source="LOCAL" name="Rails New Sample App: test" uuid="9a163092-3594-495c-a3f6-7c7811744a15">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails New Sample App: production" uuid="e6d5ab54-2f7e-474f-ae42-d29d735dabea">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
 </component>
