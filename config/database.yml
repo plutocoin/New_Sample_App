@@ -19,7 +19,7 @@ test:
   host: localhost
   adapter: postgresql
   encoding: utf8
-  database: sample_project_test
+  database: sample_project_development
   pool: 5
   username: postgres
   password: cartmen132
@@ -27,7 +27,7 @@ test:
 production:
   adapter: postgresql
   encoding: utf8
-  database: sample_project_production
+  database: sample_project_development
   pool: 5
-  username:
-  password:
+  username: postgres
+  password: cartmen132
