@@ -191,3 +191,19 @@ input {
   @extend .control-group;
   @extend  .error;
 }
+
+/* Users Index */
+
+.users {
+  list-style: none;
+  margin: 0;
+  li{
+    display: block;
+    overflow: auto;
+    padding: 10px 0;
+    border-top: 1px solid $grayLighter;
+    &:Last-child {
+      border-bottom: 1px solid $grayLighter;
+    }
+  }
+}
