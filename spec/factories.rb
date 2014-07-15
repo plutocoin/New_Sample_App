@@ -10,4 +10,9 @@ FactoryGirl.define do
     end
 
   end
+
+  factory :micropost do
+    content "Random content"
+    user
+  end
 end

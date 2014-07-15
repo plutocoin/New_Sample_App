@@ -23,6 +23,16 @@ describe "Authentication" do
     describe "for non-sign-in users" do
       let(:user) {FactoryGirl.create(:user) }
 
+      describe "in the Micropsots controller" do
+        before {post micropost_path}
+        specify { expect(response).to redirect_to(signin_path)}
+      end
+
+      describe "submitting to the destory action" do
+        before { delete micropost_path(FactoryGirl.create(:micropost))}
+        specify { expect(response).to redirect_to(signin_path)}
+      end
+
       describe "when attempting to visit a protect page" do
         before do
           visit edit_user_path(user)
